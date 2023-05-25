@@ -15,7 +15,11 @@ export const Container = styled.div`
   @media (max-width: 1025px) {
     top:-50px;
   left:50%;
-  transform:translate(-50%)
+  transform:translate(-50%)}
+  @media (max-width: 760px) {
+    top:-50px;
+  left:50%;
+  transform:translate(-35%)}
 `;
 
 export const CardChipContainer = styled.div`

@@ -11,6 +11,7 @@ export const Receipt = styled.div`
   justify-content: end;
   padding-top: 300px;
   margin-top: 65px;
+  position:relative;
  @media(max-width:1025px) {
     /* background:red; */
     width:100vw;
@@ -100,6 +101,6 @@ export const RightTicketArc = styled.div`
   margin-right: 20px;
   @media(max-width:1025px){
   right:0;
-  transform: translateX(200%);
+  transform: translateX(100%);
   }
 `;

@@ -19,7 +19,7 @@ export const Container = styled.div`
     width: 400px;
   }
   @media (max-width: 800px) {
-    width: 100vw;
+    /* width: 100vw; */
   }
 `;
 

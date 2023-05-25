@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  border: 2px solid #edeff1;
   background-color: #f9fbfc;
+  border: 2px solid #edeff1;
   justify-items: space-between;
   border-radius: 10px;
   height: 50px;
@@ -23,7 +23,8 @@ export const Container = styled.div`
     align-self: end;
   }
   @media (max-width: 800px) {
-    width: 100vw;
+    width: 100%;
+      margin-top:10px;
       img{
         display:none;
       }

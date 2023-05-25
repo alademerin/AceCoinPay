@@ -10,6 +10,8 @@ export const Container = styled.div`
     flex-direction: column;
     height:100vh;
     width:100vw;
+    padding-left:0;
+    padding-bottom:100px;
     /* overflow: scroll; */
   }
 `;

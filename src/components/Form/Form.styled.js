@@ -91,4 +91,7 @@ export const Button = styled.button`
   &:hover {
     opacity: 0.9;
   }
+  @media(max-width:1025px){
+    width:98%
+  }
 `;
