@@ -14,6 +14,7 @@ export const IconContainer = styled.div`
     margin-left: 10px;
     /* margin-right: 20px; */
     font-size: 30px;
+    color:#1e2c4e;
   }
 `;
 
