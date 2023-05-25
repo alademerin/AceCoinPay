@@ -14,14 +14,14 @@ export const IconContainer = styled.div`
     margin-left: 10px;
     /* margin-right: 20px; */
     font-size: 30px;
-    color:#1e2c4e;
+    color: #1e2c4e;
   }
 `;
 
 export const IconCircle = styled.div`
   background: #0f62f5;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 100px;
   display: flex;
   align-items: center;
@@ -29,7 +29,8 @@ export const IconCircle = styled.div`
   /* margin-right: 2px; */
 
   img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-30deg);
   }
 `;
