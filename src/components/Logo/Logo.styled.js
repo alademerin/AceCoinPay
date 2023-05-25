@@ -12,7 +12,6 @@ export const IconContainer = styled.div`
   align-items: center;
   p {
     margin-left: 10px;
-    /* margin-right: 20px; */
     font-size: 30px;
     color: #1e2c4e;
   }
@@ -26,7 +25,6 @@ export const IconCircle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-right: 2px; */
 
   img {
     width: 30px;
