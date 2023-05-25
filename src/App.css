@@ -11,5 +11,6 @@
   align-items: center;
   background-image: url(./assets/backgroundImg.jpeg);
     background-position: left center;
+    background-size: cover;
 
 }
