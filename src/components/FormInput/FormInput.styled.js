@@ -41,6 +41,7 @@ export const InputField = styled.input`
   font-weight: bold;
   width: ${({ inputWidth }) => inputWidth || "50px"};
   text-align: center;
-  @media (max-width: 767px) {
+  @media (max-width: 1025px) {
+      text-align: left
   }
 `;
